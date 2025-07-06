@@ -19,6 +19,22 @@ function App() {
         <p style={{ fontSize: '18px', color: 'gray' }}>
           IT Support Specialist | Network Administrator | IT Manager
         </p>
+
+        <a
+         href="/Abu_Saleh_CV.pdf"
+         download
+         style={{
+           display: 'inline-block',
+           padding: '10px 20px',
+           backgroundColor: '#1e40af',
+           color: '#fff',
+          borderRadius: '8px',
+          textDecoration: 'none',
+          marginTop: '20px'
+  }}
+>
+  📄 Download CV
+        </a>
       </header>
 
       <section>
