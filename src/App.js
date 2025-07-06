@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub, FaWhatsapp, FaFacebook } from "react-icons/fa";
+
 function App() {
   return (
     <div className="p-6 max-w-4xl mx-auto space-y-8">
@@ -35,6 +37,20 @@ function App() {
 >
   📄 Download CV
         </a>
+        <div className="flex justify-center gap-4 mt-4 text-2xl text-blue-800">
+          <a href="https://www.linkedin.com/in/rashedsaleh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <FaLinkedin />
+          </a>
+          <a href="https://www.facebook.com/rashed.gangchil" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <FaFacebook />
+          </a>
+          <a href="https://github.com/rashedsaleh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <FaGithub />
+          </a>
+          <a href="https://wa.me/8801717731195" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <FaWhatsapp />
+          </a>
+        </div>
       </header>
 
       <section>
@@ -76,9 +92,9 @@ function App() {
 
       <section>
         <h2 style={{ fontSize: '24px', color: '#1e40af' }}>Contact</h2>
-        <p>Email: mailofrashed@gmail.com</p>
-        <p>Phone: +8801717731195</p>
-        <p>Location: Mirpur, Dhaka, Bangladesh</p>
+        <p>📧 Email: mailofrashed@gmail.com</p>
+        <p>📞 Phone: +8801717731195</p>
+        <p>📍 Location: Mirpur, Dhaka, Bangladesh</p>
       </section>
     </div>
   );
