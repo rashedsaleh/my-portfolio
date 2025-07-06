@@ -2,6 +2,19 @@ function App() {
   return (
     <div className="p-6 max-w-4xl mx-auto space-y-8">
       <header style={{ textAlign: 'center' }}>
+        <img
+  src="/profile.jpg"
+  alt="Abu Saleh"
+  style={{
+    width: '150px',
+    height: '150px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    margin: '20px auto',
+    display: 'block'
+  }}
+/>
+
         <h1 style={{ fontSize: '32px', fontWeight: 'bold' }}>Abu Saleh (Rashed)</h1>
         <p style={{ fontSize: '18px', color: 'gray' }}>
           IT Support Specialist | Network Administrator | IT Manager
